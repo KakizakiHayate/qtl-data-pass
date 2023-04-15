@@ -8,12 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var textSecond = ""
+    @State var textThird = ""
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationStack {
+                Spacer()
+                TextField("文字を入力", text: $textSecond)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                NavigationLink(destination: SecondView(textSecond: $textSecond)) {
+                    Text("SecondViewに画面遷移")
+                }.padding()
+                
+                Spacer()
+                
+                Text("この下にThird画面で入力したテキストが表示")
+                
+                Text(textThird)
+                NavigationLink(destination: ThirdView(textThird: $textThird)) {
+                    Text("ThirdViewに画面遷移")
+                }.padding()
+                
+                Spacer()
+            }
         }
         .padding()
     }

@@ -11,6 +11,8 @@
 		759651E029EAD82700A38291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759651DF29EAD82700A38291 /* ContentView.swift */; };
 		759651E229EAD82900A38291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759651E129EAD82900A38291 /* Assets.xcassets */; };
 		759651E529EAD82900A38291 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759651E429EAD82900A38291 /* Preview Assets.xcassets */; };
+		759651EC29EAD92900A38291 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759651EB29EAD92900A38291 /* SecondView.swift */; };
+		759651EE29EADA4A00A38291 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759651ED29EADA4A00A38291 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		759651DF29EAD82700A38291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		759651E129EAD82900A38291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		759651E429EAD82900A38291 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		759651EB29EAD92900A38291 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		759651ED29EADA4A00A38291 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				759651DD29EAD82700A38291 /* QtlDataPassApp.swift */,
 				759651DF29EAD82700A38291 /* ContentView.swift */,
+				759651EB29EAD92900A38291 /* SecondView.swift */,
+				759651ED29EADA4A00A38291 /* ThirdView.swift */,
 				759651E129EAD82900A38291 /* Assets.xcassets */,
 				759651E329EAD82900A38291 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759651EE29EADA4A00A38291 /* ThirdView.swift in Sources */,
+				759651EC29EAD92900A38291 /* SecondView.swift in Sources */,
 				759651E029EAD82700A38291 /* ContentView.swift in Sources */,
 				759651DE29EAD82700A38291 /* QtlDataPassApp.swift in Sources */,
 			);
